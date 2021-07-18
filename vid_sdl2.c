@@ -292,10 +292,6 @@ static void GrabMouse(qbool grab, qbool raw)
 	mouse_active = grab;
 }
 
-void IN_Commands(void)
-{
-}
-
 void IN_StartupMouse(void)
 {
 	Cvar_Register(&in_raw);
